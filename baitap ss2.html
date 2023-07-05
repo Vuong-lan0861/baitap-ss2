@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Create Account</h2>
+    <fieldset>
+        <legend>Registrantion information</legend>
+
+        <b><label for="first name">First name*:</label></b>
+        <input type="text"name="firstname"id="firstname" placeholder="enter your first name">
+        <b><label for="last name">Last name:</label></b>
+        <input type="text"name="lastname"id="Lastname" placeholder="enter your last name"><br><br>
+
+        <b><label for="email">Email*:</label></b>
+        <input type="text" placeholder="enter your email">
+        <b><label for="Phone">Phone:</label></b>
+        <input type="text"placeholder="enter your phone number"><br><br>
+
+        <b><label for="password">password:</label></b>
+        <input type="password" id="pwd" name="pwd" minlength="10" placeholder="enter your password" >
+        <b><label for="confirm password">password:</label></b>
+        <input type="confirm password" id="confirm password" name="confirm password" minlength="10"placeholder="enter your password again" >
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Personal information</legend>
+
+    <b><labe for="gender">Gender:</labe></b>
+    <input type="radio" name="gender" value="Male" checked><label>Male</label>
+    <input type="radio" name="gender" value="Female" checked><label>Female</label>
+
+    <b><labe for="Hobbies">Hobbies:</labe></b>
+    <input type="checkbox" name="hobbies" value="music" checked><label>Music</label>
+    <input type="checkbox" name="hobbies" value="sports" checked><label>Sports</label>
+    <input type="checkbox" name="hobbies" value="travel" checked><label>travel</label>
+    <input type="checkbox" name="hobbies" value="movies" checked><label>Movies</label><br>
+
+    <br><b><label for="source of income">Source of income:</label></b>
+    <select>
+        <option value="nguon thu nhap"></option>
+        <option value="nguon loi tuc"></option>
+        <option value="nguon loi nhuan"></option>
+    </select>
+
+   <b><lable>Income:</lable></b>
+    <input type="range" name="Income" min="1"max="10"><br><br>
+    
+    <b><label >Age:</label></b>
+    <input type="number" name="age">
+    <b><label for="profile picture">Profile Picture</label></b>
+    <input type="file" name="profile picture" id="profile picture"><br><br>
+
+    <b><label for="birthday">Birthday</label></b>
+    <input type="date" name="birthday">
+    <b><label type="address">Address</label></b>
+    <input type="text" name="address"><br><br>
+
+    <b><label type="bio">Bio:</label></b>
+    <textarea rows="4" cols="80"></textarea>
+
+    </fieldset>
+
+    <br><input type="submit" value="Create">
+    <input type="reset" value="Reset">
+
+
+
+    
+</body>
+</html>
